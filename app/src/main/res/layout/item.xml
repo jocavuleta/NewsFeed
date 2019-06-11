@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/img"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="-50dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/round_white"
                 android:padding="5dp">
@@ -79,13 +79,13 @@
                     android:src="@drawable/ic_date" />
 
                 <TextView
+                    android:id="@+id/publishedAt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#606060"
-                    android:id="@+id/publishedAt"
                     android:layout_marginLeft="27dp"
                     android:layout_marginRight="10dp"
-                    android:text="01 January 1990"/>
+                    android:text="01 January 1990"
+                    android:textColor="#606060" />
 
 
             </FrameLayout>
@@ -106,13 +106,14 @@
 
             <TextView
                 android:id="@+id/desc"
-                android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/title"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="160dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
                 android:layout_marginTop="5dp"
-                android:text="Desc"/>
+                android:text="Desc"
+                />
 
             <TextView
                 android:id="@+id/source"
