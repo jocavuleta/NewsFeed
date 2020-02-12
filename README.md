@@ -1,4 +1,4 @@
-# NewsFeed :newspaper_rol
+# NewsFeed : newspaper_rol
 An Android application where you can read all fresh news around the world.
 
 ## What I Learned
